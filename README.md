@@ -4,9 +4,13 @@ INTRODUCTION:
 
 Online banking fraud has become increasingly common in recent years. It occurs when fraudsters gain access to and transfer funds from an individual’s online bank account. Customers may also be duped by fraudsters into making fraudulent fund transfers themselves.
 Online banking fraud can occur through:
+
 ID theft: When fraudsters steal their victims’ identities to open an account in the victim’s name or take over the victim’s account
+
 Phishing: This is when customers are directed by fraudsters to fake websites that look exactly the same with the real bank websites and tricked them into revealing personal information, including bank details.
+
 Malware: These are malicious software, such as a virus or Trojan, which can be hidden in free downloads and attachments. They interrupt online banking sessions and present customers with a fake, but apparently genuine screen, prompting customers to input passwords that can be captured.
+
 Vishing: This happens when fraudsters phone their potential victims and pose as Staff of a Bank, prompting customers to disclose their financial information, which they will later use for their own fraudulent purposes.
 
 PROJECT DESCRIPTION:
@@ -17,14 +21,23 @@ Blossom Bank wants to build a Machine Learning model to predict online payment f
 DATA DICTIONARY (Description of the Columns):
 
 • step: represents a unit of time where 1 step equals 1 hour
+
 • type: type of online transaction
+
 • amount: the amount of the transaction
+
 • nameOrig: customer starting the transaction
+
 • oldbalanceOrg: balance before the transaction
+
 • newbalanceOrig: balance after the transaction
+
 • nameDest: recipient of the transaction
+
 • oldbalanceDest: initial balance of recipient before the transaction
+
 • newbalanceDest: the new balance of the recipient after the transaction
+
 • isFraud: fraud transaction
 
 STEPS TAKEN:
