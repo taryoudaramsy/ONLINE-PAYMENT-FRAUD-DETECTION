@@ -1,4 +1,4 @@
- ONLINE PAYMENT FRAUD DETECTION FOR BLOSSOM BANK PLC
+ ONLINE PAYMENT FRAUD DETECTION FOR BLOSSOM BANK (BB PLC)
  
 INTRODUCTION
 Online banking fraud has become increasingly common in recent years. It occurs when fraudsters gain access to and transfer funds from an individual’s online bank account. Customers may also be duped by fraudsters into making fraudulent fund transfers themselves.
