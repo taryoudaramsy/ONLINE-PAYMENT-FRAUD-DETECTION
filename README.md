@@ -1,6 +1,7 @@
- ONLINE PAYMENT FRAUD DETECTION FOR BLOSSOM BANK (BB PLC)
+ ONLINE PAYMENT FRAUD DETECTION FOR BLOSSOM BANK PLC
  
-INTRODUCTION
+INTRODUCTION:
+
 Online banking fraud has become increasingly common in recent years. It occurs when fraudsters gain access to and transfer funds from an individual’s online bank account. Customers may also be duped by fraudsters into making fraudulent fund transfers themselves.
 Online banking fraud can occur through:
 ID theft: When fraudsters steal their victims’ identities to open an account in the victim’s name or take over the victim’s account
@@ -8,11 +9,13 @@ Phishing: This is when customers are directed by fraudsters to fake websites tha
 Malware: These are malicious software, such as a virus or Trojan, which can be hidden in free downloads and attachments. They interrupt online banking sessions and present customers with a fake, but apparently genuine screen, prompting customers to input passwords that can be captured.
 Vishing: This happens when fraudsters phone their potential victims and pose as Staff of a Bank, prompting customers to disclose their financial information, which they will later use for their own fraudulent purposes.
 
-PROJECT DESCRIPTION
+PROJECT DESCRIPTION:
+
 Blossom Bank, also known as BB PLC, is a multinational financial services group that offers retail and investment banking, pension management, asset management and payments services, headquartered in London, UK.
 Blossom Bank wants to build a Machine Learning model to predict online payment fraud, which will boost customers' confidence in the Bank, increase profitability and also assist the Bank guide against online fraud risks.
 
-DATA DICTIONARY (Description of the Columns)
+DATA DICTIONARY (Description of the Columns):
+
 • step: represents a unit of time where 1 step equals 1 hour
 • type: type of online transaction
 • amount: the amount of the transaction
@@ -24,7 +27,8 @@ DATA DICTIONARY (Description of the Columns)
 • newbalanceDest: the new balance of the recipient after the transaction
 • isFraud: fraud transaction
 
-STEPS TAKEN
+STEPS TAKEN:
+
 Data Inspection
 -	Loaded the csv data using pd.read_csv(‘online payment fraud’)
 -	Checked the rows, to know the variables in the head and tail rows
@@ -51,7 +55,8 @@ Model Selection, Training and Validation
 -	Machine Learning Algorithms were imported and Initialized
 -	The Machine Learning models used are Random Forest Classifier, KNeighbors, Naive Bayes Classifier and Decision Tree Classifier
 
-CHALLENGES ENCOUNTERED
+CHALLENGES ENCOUNTERED:
+
 During Feature Engineering, an error was encountered when converting categorical data into numerical using One-Hot Encoding. The resulting dataframe was eating up my RAM. So I dropped some columns (nameOrig and nameDest) that are not needed to encode, to reduce the data size.
 
 
